@@ -27,11 +27,10 @@ def list(item)
 
 
 
-     students.each do |s,v|
- 
-     	total =v+v+v+v
-     	puts total
-
+    total = 0
+     students.each do |k,v|
+     	total += v
      end
+     puts "Total is: #{total}"
 
  
