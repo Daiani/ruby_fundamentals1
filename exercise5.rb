@@ -17,12 +17,18 @@ puts "Result is #{result}"
 #puts "After the method call: #{number}"
 
 friends =["Mina","Julie"]
-end
+
 
 
 hash = {}
 contact = {:name => "Mina", :email => "mina@bitmakers.com"}
 
-def method_name
-	1 + 1 #code to be executed
+def daiani
+	bruno=1 + 1 #code to be executed
+	puts "o resultado e #{bruno}"
 end
+
+
+
+
+
