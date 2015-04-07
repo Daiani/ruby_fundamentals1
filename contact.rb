@@ -14,11 +14,13 @@ class Contact
 
 	end
 
+
+
 	def to_s
-	print "First Name: #{@first_name}"
-	print "Last Name: #{@last_name}"
-	print "Email: #{@email}"
-	print "Note: #{@note}"
+	return	 "First Name: #{@first_name}\n"+
+			"Last Name: #{@last_name}\n"+
+			"Email: #{@email}\n"+
+			"Note: #{@note}\n"
 
 end
 end

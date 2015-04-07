@@ -9,7 +9,7 @@ def list(item)
 	item.each do |co,num|
 		puts "#{co}; #{num}"
 	end
-    end
+end
 
     list(students)
 
